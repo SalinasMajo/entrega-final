@@ -8,6 +8,13 @@
         transition: 0,5s;
         transform:translate(10px, 20px)
     }
+    
+    @media screen and (max-width: 730px) {
+        .imag {
+          width: 80%;
+        }
+      }
+      
 }
 
 
@@ -31,15 +38,31 @@ text-decoration: none;
 
 }
 
+@media screen and (max-width: 730px){
+    .boton{
+        width: 70%;
+    }
+}
+
+
 .boton:hover{
     transform: scale(2);
     transition: 0,5;
 }
+
 .menu{
     text-decoration: none;
     color: white;
     width: 50px;
 }
+
+}
+
+@media screen and (max-width: 600px){
+    .menu{
+        width: 20px;
+        font-style: oblique;
+    }
 }
 
 .texto-final{
