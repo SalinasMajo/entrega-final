@@ -114,22 +114,23 @@ h1 {
   display: flex;
   justify-content: center;
 }
-
-.p-contacto {
-  display: flex;
-  justify-content: center;
+.info p {
   color: black;
-  font-weight: 300px;
-  padding: 40px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.redes {
+.c-logo {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
-.redes lu li {
-  list-style: none;
-  font-weight: 500px;
+.c-logo img {
+  border-radius: 50%;
+  width: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */
