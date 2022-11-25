@@ -19,3 +19,15 @@ ul{
     font-weight: 300px;
     list-style: none;
 }
+
+footer{
+    @media screen and (max-width: 320px){
+    h2{
+        font-weight: 200;
+    }
+    li{
+        font-weight: 100;
+    }
+    }
+}
+
